@@ -127,20 +127,28 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Projet information</h3>
+          <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Information Projet</h3>
               <ul>
-                <li><strong>Categorie</strong>: Réseau</li>
-              
-                <li><strong>Projet date</strong>: 12 Septembre, 2025</li>
-               
+                <li><strong>Catégorie</strong>: Sécurité Périmétrique</li>
+                <li><strong>Technologies</strong>: pfSense, NAT, Firewall</li>
+                <li><strong>Date du projet</strong>: 09 Avril 2026</li>
               </ul>
             </div>
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Création d'une infrastructure réseau en mode projet.</h2>
+              <h2>Sécurisation et filtrage des accès périmétriques (Projet E6)</h2>
               <p>
-                Réalisation d'une infrastructure réseau complète en mode projet au sein d'une équipe de 5 personnes, comprenant la configuration de routeurs, switchs, ESXi, NAS, et la mise en place d'un réseau fonctionnel. Déploiement et configuration avancée de VLAN, Zabbix, pfSense, serveur Active Directory, et GLPI pour une gestion optimisée et un monitoring efficace des systèmes
+                Suite à la fusion du laboratoire GSB, j'ai été chargé de moderniser l'infrastructure réseau en mettant en place une politique de sécurité stricte. L'objectif était de protéger les données stratégiques tout en gérant les accès des employés et des visiteurs.
+              </p>
+              <p>
+                <strong>Missions réalisées :</strong>
+                <ul>
+                  <li>Déploiement d'un pare-feu <strong>pfSense</strong> assurant le rôle de Stateful Firewall.</li>
+                  <li>Mise en place d'une logique de filtrage <strong>"Default Deny"</strong> et création d'alias de ports (HTTP, HTTPS, DNS).</li>
+                  <li>Isolation stricte du réseau Visiteur vis-à-vis du réseau Admin (règles de pare-feu inter-VLAN).</li>
+                  <li>Configuration d'une règle de <strong>Destination NAT (Port Forwarding)</strong> pour publier de manière sécurisée le serveur ESXi sur un port non-standard (6969 vers 443).</li>
+                  <li>Validation de la conformité de la politique de sécurité via l'analyse des logs de trafic pfSense.</li>
+                </ul>
               </p>
             </div>
           </div>
